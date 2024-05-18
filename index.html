@@ -20,12 +20,15 @@
     </header>
     <main class="container">
         <section class="card-content">
-            <div class="description">Get information about the any key that you press</div>
             <div class="card-container">
                 <div class="card">
                     <span class="card-header-section">
-                        <div class="card-header-text">
-                            key
+                        <input id="qr-text" type="text" placeholder="Add text or URL">
+                        <button id="qr-generate-button" class="card-header-text">
+                            Generate QR
+                        </button>
+                        <div id="qr-box">
+                            <img src="" id="qr-image">
                         </div>
                     </span>
                     <div class="card-content-text" id="keyboard_key"></div>
@@ -40,7 +43,9 @@
             <a href="https://ko-fi.com/shubhammeshram" rel="noopener noreferrer" class="footer-text">Support</a>
         </span>
     </footer>
-    <script src="main.js"></script>
+    <script src="main.js">
+
+    </script>
 </body>
 
 </html>
