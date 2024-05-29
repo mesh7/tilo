@@ -5,7 +5,7 @@
   /* margin: 0; */
   -webkit-tap-highlight-color: transparent;
   background-color: #5a5a5a;
-  font-family: "Source Code Pro", monospace;
+  /* font-family: "Source Code Pro", monospace; */
   color: aliceblue;
 }
 
@@ -13,10 +13,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-
-.logo-image {
-  width: 80px;
 }
 
 .header {
@@ -34,22 +30,7 @@
   justify-content: center;
 }
 
-.header-title {
-  font-size: 2.5rem;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 0.25rem;
-  margin-left: 1.5rem;
-}
 
-.description {
-  text-align: center;
-  font-weight: 500;
-  font-stretch: normal;
-  font-size: 15px;
-  line-height: 25px;
-  margin-bottom: 3rem;
-}
 
 .card-container {
   display: flex;
@@ -68,18 +49,6 @@
   overflow: hidden;
   text-decoration: none;
   position: relative;
-}
-
-.card-content {
-  height: 70vh;
-}
-
-.card-header-text {
-  font-weight: 600;
-  font-size: 1.25rem;
-  border-radius: 0.75rem;
-  padding: 0.75rem;
-  text-align: center;
 }
 
 .footer {
@@ -107,16 +76,4 @@
   line-height: 1.125rem;
   margin-right: 0.5rem;
   color: rgb(255, 255, 255);
-}
-
-@media screen and (max-width: 1024px) {
-  
-}
-
-@media screen and (max-width: 768px) {
-  
-}
-
-@media screen and (max-width: 425px) {
- 
 }
