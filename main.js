@@ -3,11 +3,11 @@ const qrGeneratorApi =
 
 const qrGenerateButton = document.getElementById("qr-generate-button");
 
-let qrImage = document.getElementById("qr-image");
+let qrImage = document.getElementById("qrImage");
 let qrText = document.getElementById("qr-text");
 
 qrGenerateButton.addEventListener("click", () => {
-  if (qrText.length) {
+  if (qrText.value.length) {
     qrImage.src = qrGeneratorApi + qrText.value;
   }
 

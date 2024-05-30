@@ -1,36 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
-  /* padding: 0; */
-  /* margin: 0; */
+  padding: 0;
+  margin: 0;
   -webkit-tap-highlight-color: transparent;
-  background-color: #5a5a5a;
-  /* font-family: "Source Code Pro", monospace; */
-  color: aliceblue;
+  background-color: #ffe4c0;
+  font-family: "Montserrat", sans-serif;
+  color: black;
 }
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
 }
 
-.header {
-  margin: 1.5rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
+.hero-text {
+  font-size: 4rem;
+  font-style: bold;
+  font-weight: 800;
+  text-align: left;
 }
 
-.header-container {
-  font-weight: 500;
+.generate-button {
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 10px 20px;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
 }
 
-
+.generate-button:hover {
+  background-color: #ffab4b;
+}
 
 .card-container {
   display: flex;

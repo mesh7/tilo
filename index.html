@@ -20,20 +20,24 @@
             </div>
     </header>
     <main class="container">
-        <h1 class="text-3xl font-bold">
-            Generate your own QR code for your texts and links
-        </h1>
+        <div class="content">
+            <h1 class="hero-text">
+                Generate your own QR code for your texts and links
+            </h1>
+            <input id="qr-text" type="text" placeholder="Enter text or paste URL">
+            <button id="qr-generate-button" class="generate-button">
+                Generate QR
+            </button>
+        </div>
+
         <div class="card">
-            <span class="card-header-section">
-                <input id="qr-text" type="text" placeholder="Add text or URL">
-                <button id="qr-generate-button" class="card-header-text">
-                    Generate QR
-                </button>
-                <div id="qr-box">
-                    <img src="" id="qr-image">
-                </div>
-            </span>
-            <div class="card-content-text" id="keyboard_key"></div>
+            <div id="qr-box">
+                <img src="" id="qrImage">
+            </div>
+
+            <button id="download-button" class="download-button">
+                Generate QR
+            </button>
         </div>
     </main>
     <footer class="footer">
