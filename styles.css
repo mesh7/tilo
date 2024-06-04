@@ -11,7 +11,12 @@
 .container {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   width: 100%;
+}
+
+.header {
+  margin: 1rem 0 0 0;
 }
 
 .hero-text {
@@ -19,6 +24,7 @@
   font-style: bold;
   font-weight: 800;
   text-align: left;
+  max-width: 40rem;
 }
 
 .generate-button {
@@ -26,6 +32,7 @@
   border: none;
   color: white;
   padding: 10px 20px;
+  font-size: 1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -45,8 +52,8 @@
 }
 
 .card {
-  width: 175px;
-  height: 200px;
+  width: 25rem;
+  height: 27rem;
   background-color: rgb(255, 255, 255);
   border-radius: 0.75rem;
   padding: 1rem;
@@ -55,6 +62,23 @@
   overflow: hidden;
   text-decoration: none;
   position: relative;
+}
+
+.download-button {
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.download-button:hover {
+  background-color: #ffab4b;
 }
 
 .footer {
@@ -82,4 +106,10 @@
   line-height: 1.125rem;
   margin-right: 0.5rem;
   color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 600px) {
+  .download-button {
+    background-color: #202020;
+  }
 }

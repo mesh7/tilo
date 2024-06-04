@@ -1,5 +1,5 @@
 const qrGeneratorApi =
-  "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example";
+  "https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=Example";
 
 const qrGenerateButton = document.getElementById("qr-generate-button");
 
