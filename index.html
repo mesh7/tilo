@@ -21,17 +21,27 @@
             <h1 class="hero-text">
                 Generate your own QR code for your texts and links
             </h1>
-            <input id="qr-text" type="text" placeholder="Enter text or paste URL">
+            <input id="qr-text" class="qr-text" type="text" placeholder="Enter text or paste URL">
             <button id="qr-generate-button" class="generate-button">
                 Generate QR
             </button>
         </div>
 
-        <div class="card">
-            <img src="resources/github.png" id="qrImage">
-            <button id="download-button" class="download-button">
-                Download QR
-            </button>
+        <div class="card-container">
+            <div class="card">
+                <img src="resources/github.png" id="qrImage">
+            </div>
+            <div class="card-content">
+                <select name="language" id="language">
+                    <option value="100">100*100</option>
+                    <option value="200">200*200</option>
+                    <option value="300">300*300</option>
+                </select>
+                <button id="download-button" class="download-button">
+                    Download QR
+                </button>
+            </div>
+
         </div>
     </main>
     <footer class="footer">
